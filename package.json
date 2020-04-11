@@ -1,0 +1,24 @@
+{
+  "name": "pychess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Daniel Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.3",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "ts-node": "^8.8.1"
+  },
+  "dependencies": {
+    "@types/uuid": "^7.0.2",
+    "typescript": "^3.8.3"
+  }
+}
